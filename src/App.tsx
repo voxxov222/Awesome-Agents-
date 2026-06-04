@@ -1,5 +1,5 @@
-import { useState, useMemo } from 'react';
-import { Search, ExternalLink, Hash, LayoutGrid, List, Tag, Cpu, MessageSquare, TerminalSquare, ShieldAlert, Wrench, BarChart2, Briefcase, Zap, Shield, PlayCircle } from 'lucide-react';
+import { useState, useMemo, useRef, useEffect } from 'react';
+import { Search, ExternalLink, Hash, LayoutGrid, List, Tag, Cpu, MessageSquare, TerminalSquare, ShieldAlert, Wrench, BarChart2, Briefcase, Zap, Shield, PlayCircle, Bot, X, Send } from 'lucide-react';
 import data from './data.json';
 
 const categoryIcons: Record<string, any> = {
@@ -25,6 +25,20 @@ export default function App() {
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
   const [selectedTag, setSelectedTag] = useState<string | null>(null);
 
+  // Agent Chat State
+  const [isAgentOpen, setIsAgentOpen] = useState(false);
+  const [messages, setMessages] = useState<{role: 'user' | 'agent', content: string}[]>([
+    { role: 'agent', content: "SYSTEM ONLINE. I am the Mainframe Intelligence. What kind of AI agent or tool are you looking for?" }
+  ]);
+  const [chatInput, setChatInput] = useState('');
+  const [isTyping, setIsTyping] = useState(false);
+  const chatEndRef = useRef<HTMLDivElement>(null);
+
+  useEffect(() => {
+    chatEndRef.current?.scrollIntoView({ behavior: 'smooth' });
+  }, [messages, isTyping, isAgentOpen]);
+
+
   const categories = useMemo(() => {
     const cats = new Set(data.map(item => item.category));
     return Array.from(cats);
@@ -45,6 +59,37 @@ export default function App() {
       return matchesSearch && matchesCategory && matchesTag;
     });
   }, [search, selectedCategory, selectedTag]);
+
+  const handleSendMessage = async (e: React.FormEvent) => {
+    e.preventDefault();
+    if (!chatInput.trim()) return;
+
+    const newMessages = [...messages, { role: 'user' as const, content: chatInput }];
+    setMessages(newMessages);
+    setChatInput('');
+    setIsTyping(true);
+
+    try {
+      const res = await fetch('/api/chat', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ message: chatInput, history: newMessages })
+      });
+      const data = await res.json();
+      
+      if (data.error) {
+        setMessages(prev => [...prev, { role: 'agent', content: `[ERROR]: ${data.error}` }]);
+      } else {
+        setMessages(prev => [...prev, { role: 'agent', content: data.reply }]);
+      }
+    } catch (err) {
+      setMessages(prev => [...prev, { role: 'agent', content: "[SYSTEM FAILURE]: Could not establish connection to Mainframe." }]);
+    } finally {
+      setIsTyping(false);
+    }
+  };
 
   return (
     <div className="min-h-screen bg-slate-50 text-slate-900 font-sans selection:bg-slate-900 selection:text-white flex flex-col border-8 border-slate-900 overflow-x-hidden">
@@ -212,6 +257,57 @@ export default function App() {
           &copy; 2026 Arunagirinathan-K // MIT
         </div>
       </footer>
+
+      {/* Floating Chat Interface */}
+      {isAgentOpen && (
+        <div className="fixed bottom-16 right-6 w-96 h-[500px] border-4 border-slate-900 bg-white shadow-2xl flex flex-col z-50 overflow-hidden">
+          <div className="h-12 border-b-4 border-slate-900 bg-emerald-500 flex items-center justify-between px-4">
+            <div className="flex items-center gap-2">
+              <Bot className="w-5 h-5 text-slate-900" />
+              <span className="font-['Space_Grotesk'] font-black uppercase text-slate-900 tracking-tighter">Directory Agent</span>
+            </div>
+            <button onClick={() => setIsAgentOpen(false)} className="text-slate-900 hover:text-white transition-colors">
+              <X className="w-5 h-5" />
+            </button>
+          </div>
+          <div className="flex-1 bg-slate-50 p-4 font-mono overflow-y-auto space-y-4 text-sm flex flex-col">
+            {messages.map((msg, i) => (
+              <div key={i} className={`flex max-w-[85%] ${msg.role === 'user' ? 'self-end bg-slate-900 text-white' : 'self-start bg-white border-2 border-slate-900 text-slate-900'} p-3 shadow-sm`}>
+                <span className="leading-relaxed">{msg.content}</span>
+              </div>
+            ))}
+            {isTyping && (
+              <div className="self-start bg-white border-2 border-slate-900 p-3 shadow-sm flex items-center gap-1">
+                <div className="w-2 h-2 bg-slate-900 animate-pulse" style={{ animationDelay: '0ms' }} />
+                <div className="w-2 h-2 bg-slate-900 animate-pulse" style={{ animationDelay: '150ms' }} />
+                <div className="w-2 h-2 bg-slate-900 animate-pulse" style={{ animationDelay: '300ms' }} />
+              </div>
+            )}
+            <div ref={chatEndRef} id="chat-end" />
+          </div>
+          <form className="h-14 border-t-4 border-slate-900 bg-white flex" onSubmit={handleSendMessage}>
+            <input 
+              type="text" 
+              value={chatInput}
+              onChange={e => setChatInput(e.target.value)}
+              placeholder="Ask the directory..." 
+              className="flex-1 px-4 outline-none font-mono text-sm uppercase placeholder:normal-case placeholder:text-slate-400"
+            />
+            <button disabled={isTyping || !chatInput.trim()} type="submit" className="w-14 border-l-4 border-slate-900 bg-slate-100 flex items-center justify-center hover:bg-emerald-500 disabled:opacity-50 disabled:hover:bg-slate-100 transition-colors">
+              <Send className="w-5 h-5 text-slate-900" />
+            </button>
+          </form>
+        </div>
+      )}
+
+      {/* Floating Agent Button */}
+      <button 
+        onClick={() => setIsAgentOpen(true)}
+        className={`fixed bottom-6 right-6 w-14 h-14 border-4 border-slate-900 bg-emerald-500 rounded-full flex items-center justify-center shadow-xl hover:-translate-y-1 transition-transform z-40 ${isAgentOpen ? 'scale-0' : 'scale-100'}`}
+      >
+        <Bot className="w-6 h-6 text-slate-900" />
+      </button>
+
     </div>
   );
 }
