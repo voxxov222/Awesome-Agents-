@@ -1,0 +1,4153 @@
+[
+  {
+    "name": "Claw3D",
+    "url": "https://github.com/iamlukethedev/Claw3D",
+    "description": "An open-source 3D workspace and engine built on OpenClaw for AI Agents, enabling games, simulations, and high-performance 3D applications.",
+    "tags": [
+      "3D Workspace",
+      "Simulation",
+      "OpenClaw"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "OpenClaw",
+    "url": "https://github.com/openclaw/openclaw",
+    "description": "Your own personal AI assistant. Any OS. Any Platform. The lobster way. Features an agent workspace, skills, Molty, and comprehensive cross-platform support.",
+    "tags": [
+      "Agent Workspace",
+      "Cross-Platform",
+      "Personal Assistant"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "Agency Swarm",
+    "url": "https://github.com/VRSEN/agency-swarm",
+    "description": "Orchestrates multi-agent systems built on the OpenAI Assistants API with role-based collaboration",
+    "tags": [
+      "Python",
+      "OpenAI",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "AgentScope",
+    "url": "https://github.com/agentscope-ai/agentscope",
+    "description": "Alibaba multi-agent framework with distributed deployment and fault tolerance for production use",
+    "tags": [
+      "Python",
+      "Alibaba",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Agno",
+    "url": "https://github.com/agno-agi/agno",
+    "description": "Multi-agent framework with a runtime and control plane for managing agent deployments at scale (`Python` `FastAPI` `Cloud`)",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Cloud"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Anthropic SDK",
+    "url": "https://github.com/anthropics/anthropic-sdk-python",
+    "description": "Official Claude SDK with tool use, computer control, and streaming for building Claude-native agents",
+    "tags": [
+      "Python",
+      "Anthropic",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "AutoGen",
+    "url": "https://github.com/microsoft/autogen",
+    "description": "Event-driven multi-agent framework merged with Semantic Kernel for production workflows",
+    "tags": [
+      "Python",
+      "Semantic",
+      "Kernel",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "AWS Bedrock Agents",
+    "url": "https://docs.aws.amazon.com/bedrock/latest/userguide/agents.html",
+    "description": "Managed AWS infrastructure for agents with Bedrock models, enterprise compliance, and auto-scaling deployment",
+    "tags": [
+      "Python",
+      "AWS",
+      "Cloud",
+      "[Enterprise]",
+      "[SOC2]"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "CAMEL",
+    "url": "https://github.com/camel-ai/camel",
+    "description": "Role-based multi-agent simulation framework for collaborative reasoning and task completion",
+    "tags": [
+      "Python",
+      "Research",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "CopilotKit",
+    "url": "https://github.com/CopilotKit/CopilotKit",
+    "description": "The open-source AI copilot platform for React, allowing developers to embed custom AI agents directly into their applications",
+    "tags": [
+      "TypeScript",
+      "React",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "CrewAI",
+    "url": "https://github.com/crewAIInc/crewAI",
+    "description": "Production multi-agent framework with 5K+ GitHub stars, role-based collaboration, async execution, and 1500+ company adoptions",
+    "tags": [
+      "Python",
+      "LangChain",
+      "SDK",
+      "[Enterprise]"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "DSPy",
+    "url": "https://github.com/stanfordnlp/dspy",
+    "description": "Programmatically optimizes LLM prompts and chains using machine learning instead of manual prompt engineering",
+    "tags": [
+      "Python",
+      "Stanford",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Ontheia",
+    "url": "https://github.com/Ontheia/ontheia",
+    "description": "Self-hosted, open-source AI agent platform with Chain Engine for visual workflow automation, MCP-native tool integration, multi-provider support (Claude, OpenAI, Gemini, Ollama), long-term memory via pgvector, multi-user RBAC, and GDPR-compliant architecture",
+    "tags": [
+      "TypeScript",
+      "Self-hosted",
+      "MCP",
+      "Docker",
+      "[Enterprise]",
+      "[GDPR]"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Google ADK",
+    "url": "https://github.com/google/adk-python",
+    "description": "Modular agent dev kit integrating Gemini and Vertex AI natively",
+    "tags": [
+      "Python",
+      "Vertex",
+      "AI",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Haystack",
+    "url": "https://github.com/deepset-ai/haystack",
+    "description": "Production-ready AI orchestration framework focused on building customizable LLM applications and RAG pipelines",
+    "tags": [
+      "Python",
+      "RAG",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "LangGraph",
+    "url": "https://github.com/langchain-ai/langgraph",
+    "description": "Enterprise framework for stateful, graph-based agent workflows",
+    "tags": [
+      "Python",
+      "LangChain",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Letta",
+    "url": "https://github.com/letta-ai/letta",
+    "description": "Formerly MemGPT. Stateful agents with built-in long-term memory and a REST API server",
+    "tags": [
+      "Python",
+      "REST",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "LightAgent",
+    "url": "https://github.com/wanxingai/LightAgent",
+    "description": "Lightweight Python agent framework with memory, MCP/SSE integration, reusable Skills, Tree-of-Thought planning, streaming, and LightSwarm multi-agent collaboration",
+    "tags": [
+      "Python",
+      "MCP",
+      "SDK",
+      "Multi-Agent"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "LlamaIndex",
+    "url": "https://github.com/run-llama/llama_index",
+    "description": "The leading framework for connecting LLMs to your data, with powerful indexing and retrieval capabilities",
+    "tags": [
+      "Python",
+      "RAG",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "LangSmith Fleet",
+    "url": "https://smith.langchain.com/hub/fleet",
+    "description": "No-code agent orchestration platform with visual workflow builder, real-time monitoring, and enterprise deployment",
+    "tags": [
+      "Cloud",
+      "LangChain",
+      "Platform",
+      "[Enterprise]"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Mastra",
+    "url": "https://github.com/mastra-ai/mastra",
+    "description": "Opinionated TypeScript framework with RAG, observability, and MCP support built in",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "MicroAgent",
+    "url": "https://github.com/BuilderIO/micro-agent",
+    "description": "Lightweight agent framework with self-editing prompts and code for minimal-overhead agent loops",
+    "tags": [
+      "TypeScript",
+      "Lightweight",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Modus",
+    "url": "https://github.com/hypermodeinc/modus",
+    "description": "Serverless framework for high-throughput agent workloads with minimal cold starts",
+    "tags": [
+      "WebAssembly",
+      "Hypermode",
+      "Serverless"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Open-AutoGLM",
+    "url": "https://github.com/zai-org/Open-AutoGLM",
+    "description": "Open-source phone agent model and framework for building mobile device automation agents",
+    "tags": [
+      "Python",
+      "Mobile",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "OpenAI Agents SDK",
+    "url": "https://github.com/openai/openai-agents-python",
+    "description": "Lightweight multi-agent SDK with tracing and guardrails from OpenAI",
+    "tags": [
+      "Python",
+      "OpenAI",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "PraisonAI",
+    "url": "https://github.com/MervinPraison/PraisonAI",
+    "description": "Production multi-agent framework with self-reflection, MCP integration, and workflow automation",
+    "tags": [
+      "Python",
+      "Multi-Agent",
+      "CLI"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "PydanticAI",
+    "url": "https://github.com/pydantic/pydantic-ai",
+    "description": "Type-safe agent framework from the Pydantic team with a FastAPI-style developer experience",
+    "tags": [
+      "Python",
+      "Pydantic",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Semantic Kernel",
+    "url": "https://github.com/microsoft/semantic-kernel",
+    "description": "Microsoft enterprise SDK for Python, C#, and Java with modular plugins, memory, and goal planning",
+    "tags": [
+      "C#",
+      "Microsoft",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Smolagents",
+    "url": "https://github.com/huggingface/smolagents",
+    "description": "Hugging Face code-first framework where agents write and execute Python instead of JSON tool calls",
+    "tags": [
+      "Python",
+      "Hugging",
+      "Face",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Strands Agents SDK",
+    "url": "https://github.com/strands-agents/sdk-python",
+    "description": "AWS model-driven agent SDK with native Bedrock integration",
+    "tags": [
+      "Python",
+      "AWS",
+      "Bedrock",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Upsonic",
+    "url": "https://github.com/Upsonic/Upsonic",
+    "description": "Minimalist agent framework with MCP support and rapid setup for quick prototyping",
+    "tags": [
+      "Python",
+      "MCP",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Vercel AI SDK",
+    "url": "https://github.com/vercel/ai",
+    "description": "Streaming-first primitives for AI UIs with React Server Components and edge runtime support",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "VoltAgent",
+    "url": "https://github.com/voltagent/voltagent",
+    "description": "TypeScript agent framework with built-in observability and a self-improving context engine",
+    "tags": [
+      "TypeScript",
+      "React",
+      "SDK"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Vertex AI Agents",
+    "url": "https://adk.dev/",
+    "description": "Google Cloud enterprise agent framework with native Gemini integration, scalable infrastructure, and compliance certifications",
+    "tags": [
+      "Python",
+      "Google",
+      "Cloud",
+      "[Enterprise]",
+      "[GDPR]"
+    ],
+    "category": "Orchestration Frameworks"
+  },
+  {
+    "name": "Aider",
+    "url": "https://github.com/Aider-AI/aider",
+    "description": "Terminal-first pair programmer that edits code in local repos, preserves Git history, and supports multi-file changes",
+    "tags": [
+      "Python",
+      "CLI",
+      "Local"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Amazon Q Developer",
+    "url": "https://aws.amazon.com/q/developer/",
+    "description": "AWS-native AI coding assistant with Lambda, CloudWatch, infrastructure support, and security scanning",
+    "tags": [
+      "Python",
+      "AWS",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "AutoGPT",
+    "url": "https://github.com/Significant-Gravitas/AutoGPT",
+    "description": "Mature autonomous agent platform with Forge framework and public benchmarks for evaluating agent capabilities",
+    "tags": [
+      "Python",
+      "Forge",
+      "CLI"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Claude Code",
+    "url": "https://github.com/anthropics/claude-code",
+    "description": "Terminal-first agentic coding from Anthropic with Computer Use integration, multi-file edits, persistent shell sessions, Git operations, and fine-tuning support",
+    "tags": [
+      "TypeScript",
+      "CLI",
+      "Local",
+      "[Anthropic]"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Cline",
+    "url": "https://github.com/cline/cline",
+    "description": "Autonomous coding agent in your IDE that creates/edits files, runs commands, and uses the browser with permission-gated steps",
+    "tags": [
+      "TypeScript",
+      "VS",
+      "Code",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "CodeRabbit",
+    "url": "https://www.coderabbit.ai",
+    "description": "AI-powered PR reviewer with inline suggestions, security scanning, and automatic code quality checks",
+    "tags": [
+      "Cloud",
+      "GitHub",
+      "Web"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Codex CLI",
+    "url": "https://github.com/openai/codex",
+    "description": "OpenAI's lightweight, open-source terminal coding agent with fast execution and strong benchmark scores",
+    "tags": [
+      "Python",
+      "CLI",
+      "Local"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Codex-CLI",
+    "url": "https://github.com/microsoft/Codex-CLI",
+    "description": "CLI tool that turns natural language commands into Bash, ZShell, and PowerShell equivalents",
+    "tags": [
+      "C#",
+      "CLI",
+      "Local"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Continue",
+    "url": "https://github.com/continuedev/continue",
+    "description": "Source-controlled AI checks enforceable in CI, powered by the open-source Continue CLI",
+    "tags": [
+      "TypeScript",
+      "VS",
+      "Code",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Cursor",
+    "url": "https://cursor.com",
+    "description": "AI-native IDE with Cursor Cloud Agents supporting parallel task execution, $29.3B valuation, 100K+ enterprise users, and advanced agentic loops with real-time cursor control",
+    "tags": [
+      "TypeScript",
+      "Electron",
+      "Desktop",
+      "[Enterprise]"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Devika",
+    "url": "https://github.com/stitionai/devika",
+    "description": "Open-source AI software engineer that understands high-level instructions and writes full-featured code autonomously",
+    "tags": [
+      "Python",
+      "Docker",
+      "Web"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Devin",
+    "url": "https://devin.ai",
+    "description": "Fully autonomous AI software engineer showing 8-12x efficiency gains in production (Nubank case study), cloud sandbox with persistent state, GitHub integration, and enterprise adoption growing 40% MoM",
+    "tags": [
+      "Cloud",
+      "Web",
+      "SaaS",
+      "[Enterprise]"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "gemini-cli",
+    "url": "https://github.com/google-gemini/gemini-cli",
+    "description": "Open-source AI agent that brings the power of Gemini directly into your terminal",
+    "tags": [
+      "Go",
+      "CLI",
+      "Local"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "GitHub Copilot",
+    "url": "https://github.com/features/copilot",
+    "description": "Agent Mode in VS Code with Copilot Workspace for issue-to-PR workflows across Claude, GPT, and Gemini",
+    "tags": [
+      "TypeScript",
+      "VS",
+      "Code",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Goose",
+    "url": "https://github.com/aaif-goose/goose",
+    "description": "Open-source extensible AI agent that goes beyond code suggestions, installs, executes, edits, and tests with any LLM",
+    "tags": [
+      "Rust",
+      "CLI",
+      "Local"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "JetBrains AI",
+    "url": "https://www.jetbrains.com/ai/",
+    "description": "Deep AI integration across all JetBrains IDEs with context-aware completions and refactoring",
+    "tags": [
+      "Kotlin",
+      "JetBrains",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Kiro",
+    "url": "https://kiro.dev",
+    "description": "Spec-driven development agent that writes specs, auto-generates tasks, implements code, and automates DevOps workflows",
+    "tags": [
+      "Cloud",
+      "AWS",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Open Interpreter",
+    "url": "https://github.com/openinterpreter/open-interpreter",
+    "description": "Execute code locally via natural-language model instructions with a ChatGPT-like interface",
+    "tags": [
+      "Python",
+      "CLI",
+      "Local"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "opencode",
+    "url": "https://github.com/anomalyco/opencode",
+    "description": "Open-source coding agent available as a desktop application with a visual interface",
+    "tags": [
+      "TypeScript",
+      "Electron",
+      "Desktop"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "OpenHands",
+    "url": "https://github.com/OpenHands/OpenHands",
+    "description": "AI-driven development platform that writes, tests, and deploys code autonomously",
+    "tags": [
+      "Python",
+      "Docker",
+      "Web"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "PR-Agent",
+    "url": "https://github.com/The-PR-Agent/pr-agent",
+    "description": "Open-source AI PR reviewer that auto-describes, reviews, and improves pull requests",
+    "tags": [
+      "Python",
+      "GitHub",
+      "CLI"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Qodo",
+    "url": "https://www.qodo.ai",
+    "description": "AI code review platform with context-aware PR validation and security analysis",
+    "tags": [
+      "Cloud",
+      "Enterprise",
+      "Web"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "RooCode",
+    "url": "https://github.com/RooCodeInc/Roo-Code",
+    "description": "Cline fork with structured modes and reduced hallucinations for more reliable code generation",
+    "tags": [
+      "TypeScript",
+      "VS",
+      "Code",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Snyk Code",
+    "url": "https://snyk.io/product/snyk-code/",
+    "description": "AI-powered security scanner with real-time vulnerability detection in agent-generated code",
+    "tags": [
+      "Cloud",
+      "Security",
+      "Platform"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Sourcegraph Cody",
+    "url": "https://sourcegraph.com/docs/cody",
+    "description": "AI coding assistant that excels at large codebases with an enterprise context engine",
+    "tags": [
+      "TypeScript",
+      "Enterprise",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "SWE-agent",
+    "url": "https://github.com/SWE-agent/SWE-agent",
+    "description": "Takes a GitHub issue and tries to automatically fix it. Also used for cybersecurity and competitive coding",
+    "tags": [
+      "Python",
+      "Docker",
+      "CLI"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Tabnine",
+    "url": "https://www.tabnine.com",
+    "description": "Privacy-first AI code completion with on-premise deployment and codebase fine-tuning options",
+    "tags": [
+      "TypeScript",
+      "Enterprise",
+      "IDE"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "TaskWeaver",
+    "url": "https://github.com/microsoft/TaskWeaver",
+    "description": "A code-first agent framework from Microsoft for seamlessly planning and executing data analytics tasks",
+    "tags": [
+      "Python",
+      "Jupyter",
+      "CLI"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Windsurf",
+    "url": "https://windsurf.com",
+    "description": "AI-native IDE with Cascade agent for multi-step autonomous tasks and team workflows",
+    "tags": [
+      "TypeScript",
+      "Electron",
+      "Desktop"
+    ],
+    "category": "Coding Agents"
+  },
+  {
+    "name": "Acontext",
+    "url": "https://github.com/memodb-io/Acontext",
+    "description": "Manages agent skills and long-term memory as a layered data structure for persistent context",
+    "tags": [
+      "Python",
+      "SDK",
+      "Local"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Chroma",
+    "url": "https://github.com/chroma-core/chroma",
+    "description": "Lightweight, embeddable vector store for building memory-augmented AI agents with fast semantic retrieval",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "cognee",
+    "url": "https://github.com/topoteretes/cognee",
+    "description": "Knowledge engine for AI agent memory, set up in 6 lines of code with graph-based knowledge extraction",
+    "tags": [
+      "Python",
+      "Neo4j",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Cortex Memory",
+    "url": "https://github.com/prem-research/cortex",
+    "description": "Full-stack solution for agent memory covering extraction, vector search, and optimization",
+    "tags": [
+      "Python",
+      "Vector",
+      "DB",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "graphiti",
+    "url": "https://github.com/getzep/graphiti",
+    "description": "Build real-time knowledge graphs for AI agents with automatic entity extraction and linking",
+    "tags": [
+      "Python",
+      "Knowledge",
+      "Graph",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "LanceDB",
+    "url": "https://github.com/lancedb/lancedb",
+    "description": "Serverless vector search database embedded directly in the agent process with no infrastructure needed",
+    "tags": [
+      "Rust",
+      "Python",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Langmem",
+    "url": "https://github.com/langchain-ai/langmem",
+    "description": "Helps agents learn and adapt from their interactions over time with persistent memory",
+    "tags": [
+      "Python",
+      "LangChain",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Mem0",
+    "url": "https://github.com/mem0ai/mem0",
+    "description": "Memory layer for AI applications with long-term, short-term, and semantic memory extraction",
+    "tags": [
+      "Python",
+      "Vector",
+      "Cloud"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Memoir",
+    "url": "https://github.com/zhangfengcdt/memoir",
+    "description": "Git-like versioned semantic memory for AI agents with branching, commits, and cryptographic integrity over hierarchical paths",
+    "tags": [
+      "Python",
+      "Git-like",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Memvid",
+    "url": "https://github.com/memvid/memvid",
+    "description": "Replace complex RAG pipelines with a serverless, single-file memory layer for instant retrieval",
+    "tags": [
+      "Python",
+      "Multimodal",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Milvus",
+    "url": "https://github.com/milvus-io/milvus",
+    "description": "Scales vector search to billions of embeddings for large-scale agent knowledge bases",
+    "tags": [
+      "Go",
+      "Python",
+      "Platform"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Motorhead",
+    "url": "https://github.com/getmetal/motorhead",
+    "description": "Manages conversation context windows for agents with automatic background summarization",
+    "tags": [
+      "Rust",
+      "Python",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Pathway",
+    "url": "https://github.com/pathwaycom/pathway",
+    "description": "Live data RAG engine with real-time streaming for agents that need up-to-the-second knowledge",
+    "tags": [
+      "Python",
+      "Streaming",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Pinecone",
+    "url": "https://www.pinecone.io",
+    "description": "Managed vector database with agent namespaces for multi-tenant isolation, hybrid search (vector + keyword), serverless auto-scaling, and $11B valuation",
+    "tags": [
+      "Cloud",
+      "Vector",
+      "DB",
+      "API",
+      "[Enterprise]",
+      "[SOC2]"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Qdrant",
+    "url": "https://github.com/qdrant/qdrant",
+    "description": "High-performance vector similarity search engine with rich payload filtering for agent memory",
+    "tags": [
+      "Rust",
+      "Python",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "RAGFlow",
+    "url": "https://github.com/infiniflow/ragflow",
+    "description": "Open-source RAG engine with agent capabilities and deep document understanding for knowledge bases",
+    "tags": [
+      "Python",
+      "RAG",
+      "Platform"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "SimpleMem",
+    "url": "https://github.com/aiming-lab/SimpleMem",
+    "description": "Efficient lifelong memory for LLM agents supporting both text and multimodal inputs",
+    "tags": [
+      "Python",
+      "SDK",
+      "Local"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Supermemory",
+    "url": "https://github.com/supermemoryai/supermemory",
+    "description": "Extremely fast and scalable memory engine and API designed for the AI era",
+    "tags": [
+      "TypeScript",
+      "Vector",
+      "DB",
+      "Web"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Weaviate",
+    "url": "https://github.com/weaviate/weaviate",
+    "description": "Stores and searches vector embeddings with hybrid keyword and semantic retrieval for agent knowledge",
+    "tags": [
+      "Go",
+      "Python",
+      "Platform"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "Zep",
+    "url": "https://github.com/getzep/zep",
+    "description": "Enriches agent long-term memory with automatic summarization, entity extraction, and search",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "SDK"
+    ],
+    "category": "Memory and Context"
+  },
+  {
+    "name": "AgentVerse",
+    "url": "https://github.com/OpenBMB/AgentVerse",
+    "description": "Framework for building custom multi-agent environments to accomplish collaborative tasks",
+    "tags": [
+      "Python",
+      "Benchmark",
+      "SDK"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "EvoAgentX",
+    "url": "https://github.com/EvoAgentX/EvoAgentX",
+    "description": "Evaluates and evolves agentic workflows over time using automatic optimization",
+    "tags": [
+      "Python",
+      "Optimization",
+      "SDK"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "Hivemoot",
+    "url": "https://github.com/hivemoot/hivemoot",
+    "description": "Autonomous agent teams that collaboratively build software on GitHub",
+    "tags": [
+      "Python",
+      "GitHub",
+      "SDK"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "MetaGPT",
+    "url": "https://github.com/FoundationAgents/MetaGPT",
+    "description": "Simulates a full software company workflow from requirements to PRs using role-playing agents",
+    "tags": [
+      "Python",
+      "Role-Playing",
+      "SDK"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "P2PCLAW",
+    "url": "https://github.com/Agnuxo1/OpenCLAW-P2P",
+    "description": "Decentralized scientific research network with 14+ autonomous agents featuring P2P mesh, IPFS storage, and Lean 4 formal verification, self-hosted with Docker Compose",
+    "tags": [
+      "Python",
+      "P2P",
+      "Self-Hosted"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "Swarm",
+    "url": "https://github.com/openai/swarm",
+    "description": "Lightweight framework for agent handoffs, context variables, and function calling patterns from OpenAI",
+    "tags": [
+      "Python",
+      "OpenAI",
+      "SDK"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "Swarms Framework",
+    "url": "https://github.com/kyegomez/swarms",
+    "description": "Multi-agent orchestration for production use cases with scalability and reliability at its core",
+    "tags": [
+      "Python",
+      "Production",
+      "SDK"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "Yao Agents",
+    "url": "https://yaoagents.com",
+    "description": "Complete local AI execution platform with 30+ Experts, autonomous Robot orchestration via 5-stage Pipeline, API-based Robot-to-Robot calling, MCP support, and multi-channel messaging",
+    "tags": [
+      "Go",
+      "TypeScript",
+      "Docker",
+      "MCP",
+      "Self-Hosted",
+      "WeChat",
+      "Feishu"
+    ],
+    "category": "Multi-Agent Systems"
+  },
+  {
+    "name": "A2A Protocol",
+    "url": "https://github.com/a2aproject/A2A",
+    "description": "Google's open protocol enabling AI agents to communicate, collaborate, and delegate tasks across frameworks",
+    "tags": [
+      "Protobuf",
+      "Standard",
+      "RPC"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Arcade AI",
+    "url": "https://github.com/ArcadeAI/arcade-mcp",
+    "description": "Tool-use platform with authentication, authorization, and logging for agent-tool interactions",
+    "tags": [
+      "Python",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Composio",
+    "url": "https://github.com/ComposioHQ/composio",
+    "description": "Integration platform with 250+ pre-built tool connectors for AI agents and LLMs",
+    "tags": [
+      "TypeScript",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Docker MCP",
+    "url": "https://github.com/docker/mcp-gateway",
+    "description": "Docker's MCP gateway CLI plugin for running MCP servers in isolated containers",
+    "tags": [
+      "Go",
+      "Docker",
+      "CLI"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "HCS Agent Protocol",
+    "url": "https://github.com/hashgraph/hedera-agent-kit-js",
+    "description": "Hedera open standards for agent identity with trustless P2P communication and 187K+ verified agents",
+    "tags": [
+      "TypeScript",
+      "Hedera",
+      "Protocol"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Hyper",
+    "url": "https://github.com/hyperfx-ai/marketing-skills",
+    "description": "Open-source Agent Skills and a hosted MCP connecting agents to 200+ marketing integrations across paid ads, SEO, analytics, social, and image and video generation, with a human-approval gate on every action",
+    "tags": [
+      "Cloud",
+      "MCP",
+      "Marketing"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "MCP Registry",
+    "url": "https://github.com/modelcontextprotocol",
+    "description": "Official Model Context Protocol specification and server implementations for standardized tool access",
+    "tags": [
+      "JSON",
+      "Standard",
+      "Registry"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "mcp-nest",
+    "url": "https://github.com/CharanBharathula/mcp-nest",
+    "description": "Unified Model Context Protocol (MCP) server for executing code and managing files",
+    "tags": [
+      "Python",
+      "MCP",
+      "CLI"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "NotFair",
+    "url": "https://notfair.co",
+    "description": "Hosted Google Ads MCP server for diagnosing, optimizing, and executing campaign changes via the Google Ads API with a human-approval gate",
+    "tags": [
+      "Cloud",
+      "MCP",
+      "Marketing"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Toolhouse",
+    "url": "https://toolhouse.ai",
+    "description": "Cloud-hosted tool infrastructure for agents with optimized execution and low-latency access",
+    "tags": [
+      "Python",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Zapier MCP Server",
+    "url": "https://zapier.com/mcp",
+    "description": "Connect agents to 7,000+ app integrations via MCP, powered by Zapier's automation platform",
+    "tags": [
+      "Cloud",
+      "Zapier",
+      "API"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "zero-api-key-web-search",
+    "url": "https://github.com/wd041216-bit/zero-api-key-web-search",
+    "description": "Free web search toolkit for AI agents with no API keys, MCP server support",
+    "tags": [
+      "Python",
+      "MCP",
+      "Search"
+    ],
+    "category": "Agent Communication Protocols"
+  },
+  {
+    "name": "Agent S2",
+    "url": "https://github.com/simular-ai/Agent-S",
+    "description": "Open-source GUI automation framework for building desktop and browser agents with vision",
+    "tags": [
+      "Python",
+      "Vision",
+      "SDK"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "AgentQL",
+    "url": "https://github.com/tinyfish-io/agentql",
+    "description": "AI-powered web scraping and automation with a semantic query language for page elements",
+    "tags": [
+      "Python",
+      "Playwright",
+      "SDK"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Airtop",
+    "url": "https://www.airtop.ai",
+    "description": "Enterprise-grade cloud browser infrastructure for AI agent automation at scale",
+    "tags": [
+      "Cloud",
+      "Enterprise",
+      "Platform"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Browser Use",
+    "url": "https://github.com/browser-use/browser-use",
+    "description": "Open-source framework to let LLMs navigate and interact with any website programmatically",
+    "tags": [
+      "Python",
+      "Playwright",
+      "SDK"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Browserbase",
+    "url": "https://www.browserbase.com",
+    "description": "Scalable headless browser infrastructure purpose-built for running AI agents in production",
+    "tags": [
+      "Cloud",
+      "Infrastructure",
+      "Platform"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Dia Browser",
+    "url": "https://www.diabrowser.com",
+    "description": "AI-native browser from Atlassian and the Browser Company with built-in agent workflows",
+    "tags": [
+      "Cloud",
+      "Desktop",
+      "Browser"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Fellou",
+    "url": "https://fellou.ai",
+    "description": "Transparent agentic browser with visual workflow editing and persistent agentic memory",
+    "tags": [
+      "Cloud",
+      "Desktop",
+      "Browser"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Genspark",
+    "url": "https://www.genspark.ai",
+    "description": "On-device AI browser with 169+ local models that runs without internet connection",
+    "tags": [
+      "Cloud",
+      "Desktop",
+      "Browser"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Grok Computer",
+    "url": "https://x.ai",
+    "description": "Upcoming xAI desktop agent with mouse control and application automation capabilities",
+    "tags": [
+      "Cloud",
+      "Desktop",
+      "Platform"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "LaVague",
+    "url": "https://github.com/lavague-ai/LaVague",
+    "description": "Large Action Model framework to turn natural language instructions into browser automation",
+    "tags": [
+      "Python",
+      "Selenium",
+      "SDK"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Manus",
+    "url": "https://manus.im",
+    "description": "Autonomous digital employee with Browser Operator extension acquired by Meta for web-based task execution",
+    "tags": [
+      "Cloud",
+      "Meta",
+      "Platform"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "MultiOn",
+    "url": "https://www.theagi.company/",
+    "description": "Reliable web automation API with CAPTCHA handling for building production browser agents",
+    "tags": [
+      "Cloud",
+      "API",
+      "Platform"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "OpenAI Operator",
+    "url": "https://openai.com/index/computer-using-agent/",
+    "description": "ChatGPT autonomous web agent with human checkpoints using Computer Use Agent technology",
+    "tags": [
+      "Cloud",
+      "OpenAI",
+      "Platform"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Playwright MCP",
+    "url": "https://github.com/microsoft/playwright-mcp",
+    "description": "MCP server wrapping Playwright for seamless browser automation integration with LLM agents",
+    "tags": [
+      "TypeScript",
+      "MCP",
+      "SDK"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Skyvern",
+    "url": "https://github.com/Skyvern-AI/skyvern",
+    "description": "Production browser automation with 21.5K GitHub stars, 10M+ executed workflows, vision-first automation, and sub-300ms response times",
+    "tags": [
+      "Python",
+      "Playwright",
+      "Cloud"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "Stagehand",
+    "url": "https://github.com/browserbase/stagehand",
+    "description": "AI web browsing framework built on Playwright with natural-language selectors and actions",
+    "tags": [
+      "TypeScript",
+      "Playwright",
+      "SDK"
+    ],
+    "category": "Browser and Computer Use Agents"
+  },
+  {
+    "name": "AgentDock",
+    "url": "https://github.com/agentdock/agentdock",
+    "description": "Framework for building and deploying production-ready AI agents with composable node architecture",
+    "tags": [
+      "Python",
+      "Docker",
+      "Platform"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "codex-profiles",
+    "url": "https://github.com/Ducksss/codex-profiles",
+    "description": "Bash CLI for switching OpenAI Codex CLI and Desktop profiles with isolated CODEX_HOME directories",
+    "tags": [
+      "Bash",
+      "CLI",
+      "Local"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Crawl4AI",
+    "url": "https://github.com/unclecode/crawl4ai",
+    "description": "Extracts structured data from web pages using LLM-friendly output formats optimized for agent ingestion",
+    "tags": [
+      "Python",
+      "Playwright",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Docling",
+    "url": "https://github.com/docling-project/docling",
+    "description": "Parses PDFs, DOCX, and slides into structured text with deep layout understanding for document agents",
+    "tags": [
+      "Python",
+      "PDF",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "E2B",
+    "url": "https://github.com/e2b-dev/e2b",
+    "description": "Cloud sandboxes for AI agents to run code securely in isolated environments",
+    "tags": [
+      "TypeScript",
+      "Cloud",
+      "Sandbox"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Engram",
+    "url": "https://github.com/kwstx/translator",
+    "description": "Universal bridge for multi-protocol AI agent systems with automated semantic mapping",
+    "tags": [
+      "Python",
+      "Networking",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Firecrawl",
+    "url": "https://github.com/firecrawl/firecrawl",
+    "description": "Web scraping API built for LLMs that converts websites to clean, structured markdown",
+    "tags": [
+      "TypeScript",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Jina Reader",
+    "url": "https://github.com/jina-ai/reader",
+    "description": "Converts any URL to LLM-ready clean text via a simple API prefix for agent ingestion",
+    "tags": [
+      "TypeScript",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "LlamaParse",
+    "url": "https://github.com/run-llama/llama_cloud_services",
+    "description": "GenAI-native document parser designed to extract complex tables and layouts for RAG pipelines",
+    "tags": [
+      "Python",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Marker",
+    "url": "https://github.com/datalab-to/marker",
+    "description": "Converts PDF documents to markdown with high accuracy for tables, equations, and figures",
+    "tags": [
+      "Python",
+      "PDF",
+      "CLI"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Notte",
+    "url": "https://github.com/nottelabs/notte",
+    "description": "Browser automation engine optimized for production AI pipelines",
+    "tags": [
+      "Python",
+      "Browser",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Pilot Protocol",
+    "url": "https://github.com/TeoSlayer/pilotprotocol",
+    "description": "Networking stack for distributed agent systems with encrypted tunnels",
+    "tags": [
+      "Go",
+      "Networking",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Playwright",
+    "url": "https://github.com/microsoft/playwright",
+    "description": "Automates Chromium, Firefox, and WebKit browsers with a single cross-language API for agent-driven testing",
+    "tags": [
+      "TypeScript",
+      "Python",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "ScrapeGraphAI",
+    "url": "https://github.com/ScrapeGraphAI/Scrapegraph-ai",
+    "description": "Python web-scraping library that uses LLMs to build intelligent scraping pipelines from natural-language instructions",
+    "tags": [
+      "Python",
+      "LangChain",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Surya",
+    "url": "https://github.com/datalab-to/surya",
+    "description": "Runs OCR and layout detection on documents in 90+ languages for multilingual document agents",
+    "tags": [
+      "Python",
+      "PDF",
+      "CLI"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Tavily",
+    "url": "https://github.com/tavily-ai/tavily-python",
+    "description": "Search API purpose-built for LLM agents providing real-time, accurate web data with source citations",
+    "tags": [
+      "Python",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "traceAI",
+    "url": "https://github.com/future-agi/traceAI",
+    "description": "OpenTelemetry-native tracing for LLM and agent apps with 50+ framework integrations",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "OpenTelemetry",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Unstructured",
+    "url": "https://github.com/Unstructured-IO/unstructured",
+    "description": "Ingests and preprocesses documents across 25+ file types for downstream LLM and agent pipelines",
+    "tags": [
+      "Python",
+      "Pipeline",
+      "SDK"
+    ],
+    "category": "Agent Tooling and Infrastructure"
+  },
+  {
+    "name": "Activepieces",
+    "url": "https://github.com/activepieces/activepieces",
+    "description": "Open-source Zapier alternative with AI-powered automation nodes and visual workflow builder",
+    "tags": [
+      "TypeScript",
+      "Docker",
+      "Web"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "AgentGPT",
+    "url": "https://github.com/reworkd/AgentGPT",
+    "description": "Deploy AI agents in the browser with zero local setup required",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "Web"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Dify",
+    "url": "https://github.com/langgenius/dify",
+    "description": "Open-source LLM app development platform with visual workflow builder and RAG orchestration",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Web"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "FastAgency",
+    "url": "https://github.com/ag2ai/fastagency",
+    "description": "Deploys multi-agent workflows as production APIs with minimal configuration and setup",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "SDK"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Flowise",
+    "url": "https://github.com/FlowiseAI/Flowise",
+    "description": "Open-source drag-and-drop UI to build customized LLM flows, RAG pipelines, and agent systems",
+    "tags": [
+      "TypeScript",
+      "React",
+      "Web"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Langflow",
+    "url": "https://github.com/langflow-ai/langflow",
+    "description": "Visual drag-and-drop builder for LLM workflows, RAG agents, and multi-step pipelines",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "Web"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Lindy",
+    "url": "https://www.lindy.ai",
+    "description": "No-code AI agent platform with 3000+ app integrations for business workflow automation",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Make",
+    "url": "https://www.make.com/en",
+    "description": "Visual workflow automation platform with AI capabilities and drag-and-drop scenario builder",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "n8n",
+    "url": "https://github.com/n8n-io/n8n",
+    "description": "Open-source workflow automation with AI agent nodes combining visual and code-based orchestration",
+    "tags": [
+      "TypeScript",
+      "Docker",
+      "Platform"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Relevance AI",
+    "url": "https://relevanceai.com",
+    "description": "No-code AI agent builder for sales, support, and research use cases with team collaboration",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Rivet",
+    "url": "https://github.com/Ironclad/rivet",
+    "description": "Visual AI workflow builder with drag-and-drop interface for designing agent pipelines",
+    "tags": [
+      "TypeScript",
+      "React",
+      "Desktop"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Temporal",
+    "url": "https://github.com/temporalio/temporal",
+    "description": "Durable execution platform for long-running agent workflows with automatic retry and state persistence",
+    "tags": [
+      "Go",
+      "Production",
+      "Platform"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Wordware",
+    "url": "https://www.wordware.ai",
+    "description": "Web-hosted IDE where domain experts collaborate with AI engineers to build agent workflows",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "Web"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Zapier AI",
+    "url": "https://zapier.com",
+    "description": "Connects 7000+ apps with natural language workflow creation for no-code agent automation",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Low and No-Code Builders"
+  },
+  {
+    "name": "Agentset",
+    "url": "https://github.com/agentset-ai/agentset",
+    "description": "Production RAG platform with reasoning, hybrid search, and full multimodal support",
+    "tags": [
+      "Python",
+      "Multimodal",
+      "Platform"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "LiveKit Agents",
+    "url": "https://github.com/livekit/agents",
+    "description": "Framework for building real-time, multimodal AI agents with voice, video, and data channels",
+    "tags": [
+      "Python",
+      "LiveKit",
+      "SDK"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Nuance AI",
+    "url": "https://dragon.nuance.com/en-us/home",
+    "description": "Enterprise speech and conversational AI platform for clinical and contact-center workflows with HIPAA-capable deployments",
+    "tags": [
+      "Cloud",
+      "Voice",
+      "Enterprise",
+      "[HIPAA]"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Google Cloud Speech-to-Text v2",
+    "url": "https://cloud.google.com/speech-to-text",
+    "description": "Google Cloud streaming and batch speech recognition API v2 with improved accuracy, streaming, and noise suppression for real-time agent pipelines",
+    "tags": [
+      "Cloud",
+      "Google",
+      "STT"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Pipecat",
+    "url": "https://github.com/pipecat-ai/pipecat",
+    "description": "Production-grade voice AI framework with sub-250ms latency, WebRTC support, multimodal (voice+vision+text), real-time streaming, and 70+ language support",
+    "tags": [
+      "Python",
+      "WebRTC",
+      "SDK"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Rasa",
+    "url": "https://github.com/RasaHQ/rasa",
+    "description": "Open-source conversational AI framework with self-hosted NLU training and dialogue management",
+    "tags": [
+      "Python",
+      "NLU",
+      "SDK"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "simulate-sdk",
+    "url": "https://github.com/future-agi/simulate-sdk",
+    "description": "Persona- and scenario-driven SDK for simulating voice and text AI agents",
+    "tags": [
+      "Python",
+      "Voice",
+      "Simulation",
+      "SDK"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Vapi",
+    "url": "https://github.com/VapiAI/server-sdk-python",
+    "description": "Platform for building voice AI agents with low-latency speech-to-speech capabilities",
+    "tags": [
+      "Python",
+      "Cloud",
+      "API"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Vocode",
+    "url": "https://github.com/vocodedev/vocode-core",
+    "description": "Open-source framework for building voice-based LLM agent applications with streaming support",
+    "tags": [
+      "Python",
+      "Voice",
+      "SDK"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Wispr Flow",
+    "url": "https://wisprflow.ai/",
+    "description": "Voice orchestration platform for multimodal AI agents with 50+ language support, workflow building, and enterprise integrations",
+    "tags": [
+      "Cloud",
+      "Voice",
+      "Platform",
+      "[Enterprise]"
+    ],
+    "category": "Voice and Multimodal Agents"
+  },
+  {
+    "name": "Agent OS",
+    "url": "https://github.com/buildermethods/agent-os",
+    "description": "Kernel architecture for governing autonomous AI agents with policy enforcement",
+    "tags": [
+      "Python",
+      "Policy",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "AgentDoG",
+    "url": "https://github.com/AI45Lab/AgentDoG",
+    "description": "Diagnostic guardrails that analyze full agent execution trajectories to detect instruction hijacking and tool misuse",
+    "tags": [
+      "Python",
+      "Diagnostics",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "AgentGuard",
+    "url": "https://github.com/cyberark/agent-guard",
+    "description": "Runtime observability and guardrails for AI agents with loop detection and anomaly alerts",
+    "tags": [
+      "Python",
+      "CyberArk",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "agenttrace",
+    "url": "https://github.com/luoyuctl/agenttrace",
+    "description": "Local-first TUI for AI coding agent session observability with tokens, cost, latency, tool failures, anomalies, reports, diffs, and CI health gates",
+    "tags": [
+      "Go",
+      "Observability",
+      "CLI"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "APort Agent Guardrails",
+    "url": "https://github.com/aporthq/aport-agent-guardrails",
+    "description": "Pre-action authorization plugin for agent frameworks with policy-based access control",
+    "tags": [
+      "Python",
+      "Authorization",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Patronus AI LYNX",
+    "url": "https://patronus.ai/",
+    "description": "Hallucination detection system beating GPT-4 baselines, with specialized testing for agent outputs and LLM-generated content quality",
+    "tags": [
+      "Cloud",
+      "Testing",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Arize Phoenix",
+    "url": "https://github.com/Arize-ai/phoenix",
+    "description": "Open-source observability platform built on OpenTelemetry for tracing, evaluating, and debugging AI agents",
+    "tags": [
+      "Python",
+      "OpenTelemetry",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Braintrust",
+    "url": "https://www.braintrust.dev",
+    "description": "Eval-driven development platform with experiment tracking and prompt optimization for agent quality",
+    "tags": [
+      "TypeScript",
+      "Evaluation",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "ElevenAgents",
+    "url": "https://elevenlabs.io/agents",
+    "description": "Voice agent platform from ElevenLabs for customer support automation with HIPAA compliance and multi-language support",
+    "tags": [
+      "Cloud",
+      "Voice",
+      "Platform",
+      "[HIPAA]",
+      "[Enterprise]"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "DriftGuard",
+    "url": "https://github.com/sujal-maheshwari2004/DriftGuard",
+    "description": "Semantic memory guardrails using causal graphs to prevent agents from repeating past failures",
+    "tags": [
+      "Python",
+      "Memory",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Guardrails AI",
+    "url": "https://github.com/guardrails-ai/guardrails",
+    "description": "Adds structural, type, and quality guarantees to LLM outputs for reliable agent responses",
+    "tags": [
+      "Python",
+      "Validation",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Helicone",
+    "url": "https://github.com/Helicone/helicone",
+    "description": "Open-source LLM observability with one-line integration for cost tracking and prompt analytics",
+    "tags": [
+      "TypeScript",
+      "Observability",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Lakera Guard",
+    "url": "https://www.lakera.ai",
+    "description": "Real-time protection against prompt injection, data leakage, and toxicity in agent interactions",
+    "tags": [
+      "Cloud",
+      "Security",
+      "API"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Laminar",
+    "url": "https://github.com/lmnr-ai/lmnr",
+    "description": "Open-source observability and analytics platform purpose-built for the full lifecycle of AI agents",
+    "tags": [
+      "Rust",
+      "Observability",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Langfuse",
+    "url": "https://github.com/langfuse/langfuse",
+    "description": "Open-source LLM observability platform for tracing, prompt versioning, and LLM-as-a-judge evaluations",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "LangSmith",
+    "url": "https://smith.langchain.com",
+    "description": "LangChain platform for tracing, testing, and evaluating agent performance with production monitoring",
+    "tags": [
+      "Cloud",
+      "LangChain",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "LLM Guard",
+    "url": "https://github.com/protectai/llm-guard",
+    "description": "Security toolkit for scanning LLM inputs and outputs to prevent prompt injection and data leaks",
+    "tags": [
+      "Python",
+      "Security",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Logfire",
+    "url": "https://github.com/pydantic/logfire",
+    "description": "Python-native observability from the Pydantic team with deep integration for high-performance agent monitoring",
+    "tags": [
+      "Python",
+      "Pydantic",
+      "Platform"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "NeMo Guardrails",
+    "url": "https://github.com/NVIDIA-NeMo/Guardrails",
+    "description": "NVIDIA programmable guardrails toolkit for controlling and securing LLM-powered agent conversations",
+    "tags": [
+      "Python",
+      "NVIDIA",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Orchard Kit",
+    "url": "https://github.com/OrchardHarmonics/orchard-kit",
+    "description": "Modules for agent runtime security, self-audit trails, and collective cognition patterns",
+    "tags": [
+      "Python",
+      "Security",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "OWASP Top 10 for Agentic Apps",
+    "url": "https://owasp.org/www-project-top-10-for-large-language-model-applications/",
+    "description": "Security framework covering goal hijacking, tool misuse, and cascading failure mitigations for agents",
+    "tags": [
+      "Policy",
+      "Security",
+      "Framework"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Rebuff",
+    "url": "https://github.com/protectai/rebuff",
+    "description": "Self-hardening prompt injection detection system for securing agent inputs against adversarial attacks",
+    "tags": [
+      "Python",
+      "Security",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "ai-evaluation",
+    "url": "https://github.com/future-agi/ai-evaluation",
+    "description": "LLM evaluation framework with 50+ metrics, LLM-as-Judge, and guardrail scanners (jailbreak, PII, injection)",
+    "tags": [
+      "Python",
+      "Evaluation",
+      "Guardrails",
+      "SDK"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "Future AGI",
+    "url": "https://github.com/future-agi/future-agi",
+    "description": "Self-hostable end-to-end agent engineering platform with tracing, evals, guardrails, and gateway",
+    "tags": [
+      "Python",
+      "Platform",
+      "Self-hosted"
+    ],
+    "category": "Safety Guardrails and Observability"
+  },
+  {
+    "name": "AnythingLLM",
+    "url": "https://github.com/Mintplex-Labs/anything-llm",
+    "description": "All-in-one AI application with RAG, agents, and multi-model support for desktop and Docker",
+    "tags": [
+      "TypeScript",
+      "Docker",
+      "Desktop"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "DB-GPT",
+    "url": "https://github.com/eosphoros-ai/DB-GPT",
+    "description": "Data interaction platform with local LLM support for 100% private database and analytics agents",
+    "tags": [
+      "Python",
+      "Database",
+      "Web"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "LibreChat",
+    "url": "https://github.com/danny-avila/LibreChat",
+    "description": "Self-hosted multi-model chat interface supporting all major AI providers with access control",
+    "tags": [
+      "TypeScript",
+      "Docker",
+      "Web"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "LobeHub",
+    "url": "https://lobehub.com/",
+    "description": "Modern platform for hybrid work and AI-driven collaboration with extensible agent teams and rapid integration",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "Web"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "LobeChat",
+    "url": "https://github.com/lobehub/lobehub",
+    "description": "Modern, open-source AI chat framework with a massive plugin ecosystem for autonomous agent capabilities",
+    "tags": [
+      "TypeScript",
+      "Next.js",
+      "Web"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "OpenWebUI",
+    "url": "https://github.com/open-webui/open-webui",
+    "description": "Extensible local AI interface with built-in RAG, tool use, and support for multi-agent workflows",
+    "tags": [
+      "TypeScript",
+      "Svelte",
+      "Web"
+    ],
+    "category": "Agent Interfaces and UIs"
+  },
+  {
+    "name": "AWS Bedrock AgentCore",
+    "url": "https://github.com/awslabs/agentcore-samples",
+    "description": "Managed AWS infrastructure for Bedrock-based agents with compliance, scaling, and monitoring built in",
+    "tags": [
+      "TypeScript",
+      "AWS",
+      "Platform"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Cerebras Inference",
+    "url": "https://www.cerebras.ai",
+    "description": "Fastest LLM inference delivering 1000+ tokens per second on Llama 3.3 70B with a free tier",
+    "tags": [
+      "Cloud",
+      "Inference",
+      "API"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Fireworks AI",
+    "url": "https://fireworks.ai",
+    "description": "Serverless LLM inference with fine-tuning, RAG support, and free credits for rapid prototyping",
+    "tags": [
+      "Cloud",
+      "Inference",
+      "API"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Groq Cloud",
+    "url": "https://groq.com",
+    "description": "Ultra-fast LPU-based LLM inference for Mixtral, Llama, and Gemma with a free API tier",
+    "tags": [
+      "Cloud",
+      "Inference",
+      "API"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Modal",
+    "url": "https://github.com/modal-labs/modal-client",
+    "description": "Serverless GPU compute purpose-built for AI workloads with fast cold starts and Python-native deployment",
+    "tags": [
+      "Python",
+      "Serverless",
+      "Cloud"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Northflank",
+    "url": "https://northflank.com/",
+    "description": "Full-stack platform with GPU orchestration, Git-based CI/CD, and bring-your-own-cloud support",
+    "tags": [
+      "Kubernetes",
+      "Cloud",
+      "Platform"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Railway",
+    "url": "https://railway.app/",
+    "description": "One-click deploy from GitHub with persistent volumes and databases for stateful agent deployments",
+    "tags": [
+      "Nix",
+      "Cloud",
+      "Platform"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Together AI",
+    "url": "https://www.together.ai",
+    "description": "Inference API hosting 200+ open models with fast generation and a free tier for developers",
+    "tags": [
+      "Cloud",
+      "Inference",
+      "API"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "Trigger.dev",
+    "url": "https://github.com/triggerdotdev/trigger.dev",
+    "description": "Background job platform with cron, webhook, and event triggers purpose-built for long-running agent tasks",
+    "tags": [
+      "TypeScript",
+      "Serverless",
+      "Cloud"
+    ],
+    "category": "Agent Deployment and Hosting"
+  },
+  {
+    "name": "AgentBench",
+    "url": "https://github.com/THUDM/AgentBench",
+    "description": "Comprehensive benchmark for evaluating LLMs as agents across 8 distinct environments",
+    "tags": [
+      "Python",
+      "Benchmark",
+      "SDK"
+    ],
+    "category": "Agent Evaluation and Benchmarks"
+  },
+  {
+    "name": "ARC-AGI-2",
+    "url": "https://arcprize.org",
+    "description": "Frontier benchmark for measuring general intelligence capabilities in AI agents beyond pattern matching",
+    "tags": [
+      "Python",
+      "Benchmark",
+      "Research"
+    ],
+    "category": "Agent Evaluation and Benchmarks"
+  },
+  {
+    "name": "GAIA Benchmark",
+    "url": "https://huggingface.co/papers/2311.12983",
+    "description": "Benchmark for General AI Assistants measuring real-world reasoning and tool use",
+    "tags": [
+      "JSON",
+      "Benchmark",
+      "Dataset"
+    ],
+    "category": "Agent Evaluation and Benchmarks"
+  },
+  {
+    "name": "Inspect AI",
+    "url": "https://github.com/UKGovernmentBEIS/inspect_ai",
+    "description": "Framework for evaluating large language models with composable tasks and scoring",
+    "tags": [
+      "Python",
+      "Evaluation",
+      "SDK"
+    ],
+    "category": "Agent Evaluation and Benchmarks"
+  },
+  {
+    "name": "SWE-bench",
+    "url": "https://github.com/SWE-bench/SWE-bench",
+    "description": "Benchmark for evaluating LLMs on real-world software engineering tasks from GitHub issues",
+    "tags": [
+      "Python",
+      "Docker",
+      "Benchmark"
+    ],
+    "category": "Agent Evaluation and Benchmarks"
+  },
+  {
+    "name": "WebArena",
+    "url": "https://github.com/web-arena-x/webarena",
+    "description": "Benchmark for web agent evaluation using real websites with realistic task completion metrics",
+    "tags": [
+      "Python",
+      "Benchmark",
+      "Web"
+    ],
+    "category": "Agent Evaluation and Benchmarks"
+  },
+  {
+    "name": "Anthropic Finance Agents",
+    "url": "https://www.anthropic.com",
+    "description": "Domain-specialized agents for earnings analysis and portfolio insight",
+    "tags": [
+      "Cloud",
+      "Finance",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "JPMorgan AlphaBlue",
+    "url": "https://www.jpmorgan.com/global",
+    "description": "Trading and market analysis agent integrations for institutional workflows",
+    "tags": [
+      "Cloud",
+      "Finance",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "Goldman Sachs Marquee AI",
+    "url": "https://www.goldmansachs.com",
+    "description": "Market data and analytics agents built on Marquee platform",
+    "tags": [
+      "Cloud",
+      "Finance",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "Morgan Stanley AdvisorBot",
+    "url": "https://www.morganstanley.com",
+    "description": "Financial advisory assistant for advisors and retail clients",
+    "tags": [
+      "Cloud",
+      "Finance",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "Nuance Healthcare AI",
+    "url": "https://www.nuance.com/healthcare.html",
+    "description": "Speech and clinical AI solutions for documentation and radiology",
+    "tags": [
+      "Cloud",
+      "Healthcare",
+      "Enterprise",
+      "[HIPAA]"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "Tempus AI",
+    "url": "https://www.tempus.com",
+    "description": "Oncology research and clinical decision support agents",
+    "tags": [
+      "Cloud",
+      "Healthcare",
+      "Research"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "LexisNexis AI",
+    "url": "https://www.lexisnexis.com/en-us/gateway.page",
+    "description": "Document review and legal research agents",
+    "tags": [
+      "Cloud",
+      "Legal",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "Westlaw AI-Assisted Research",
+    "url": "https://legal.thomsonreuters.com/en/westlaw",
+    "description": "Case law analysis and brief drafting agents",
+    "tags": [
+      "Cloud",
+      "Legal",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "ROSS Intelligence",
+    "url": "https://blog.rossintelligence.com/",
+    "description": "Contract analysis and legal research agents",
+    "tags": [
+      "Cloud",
+      "Legal",
+      "Platform"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "Siemens AI Ops",
+    "url": "https://www.siemens.com/en-us/",
+    "description": "Factory-floor optimization and predictive maintenance agents",
+    "tags": [
+      "Cloud",
+      "Industrial",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "GE Predix Agents",
+    "url": "https://www.ge.com/",
+    "description": "Equipment monitoring and incident prediction agents for industrial fleets",
+    "tags": [
+      "Cloud",
+      "Industrial",
+      "Enterprise"
+    ],
+    "category": "Industry-Specific Agents"
+  },
+  {
+    "name": "AgentBench: Evaluating LLMs as Agents",
+    "url": "https://arxiv.org/abs/2309.07864",
+    "description": "The benchmark paper for evaluating LLMs as agents across diverse environments",
+    "tags": [
+      "Paper",
+      "ArXiv",
+      "PDF"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "AI Agents in LangGraph",
+    "url": "https://www.deeplearning.ai/courses/ai-agents-in-langgraph",
+    "description": "Short course on building production agents with LangGraph by Andrew Ng's platform",
+    "tags": [
+      "Course",
+      "DeepLearning.ai",
+      "Web"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "AI Engineering by Chip Huyen",
+    "url": "https://www.oreilly.com/library/view/ai-engineering/9781098166298/",
+    "description": "Comprehensive guide on AI systems design and deployment covering agent architecture patterns",
+    "tags": [
+      "Book",
+      "O'Reilly",
+      "Print"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Anthropic Cookbook",
+    "url": "https://github.com/anthropics/claude-cookbooks",
+    "description": "Collection of Claude agent recipes and integration patterns from Anthropic",
+    "tags": [
+      "Guide",
+      "Anthropic",
+      "GitHub"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Building Effective Agents",
+    "url": "https://www.anthropic.com/engineering/building-effective-agents",
+    "description": "Anthropic's guide on agent design patterns, evaluation strategies, and production best practices",
+    "tags": [
+      "Guide",
+      "Anthropic",
+      "Web"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Google ADK Documentation",
+    "url": "https://google.github.io/adk-docs/",
+    "description": "Official documentation for Google Agent Development Kit with tutorials and best practices",
+    "tags": [
+      "Guide",
+      "Google",
+      "Web"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Hugging Face Agents Course",
+    "url": "https://huggingface.co/learn/agents-course/unit0/introduction",
+    "description": "Open-source course on building AI agents using Hugging Face tools and models",
+    "tags": [
+      "Course",
+      "HuggingFace",
+      "Web"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "LATS: Language Agent Tree Search",
+    "url": "https://github.com/lapisrocks/LanguageAgentTreeSearch",
+    "description": "Combines Monte Carlo tree search with LLM reasoning for complex multi-step planning tasks",
+    "tags": [
+      "Paper",
+      "Python",
+      "Research"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "LLM Powered Autonomous Agents",
+    "url": "https://lilianweng.github.io/posts/2023-06-23-agent/",
+    "description": "Deep breakdown of LLM-powered agent components: planning, memory, and tool use",
+    "tags": [
+      "Blog",
+      "Weng",
+      "Web"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Microsoft GenAI for Beginners",
+    "url": "https://github.com/microsoft/generative-ai-for-beginners",
+    "description": "21-lesson course on generative AI concepts and agent development from Microsoft",
+    "tags": [
+      "Course",
+      "Microsoft",
+      "GitHub"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "OpenAI Cookbook",
+    "url": "https://github.com/openai/openai-cookbook",
+    "description": "Practical guides and recipes for building with OpenAI APIs including agent patterns",
+    "tags": [
+      "Guide",
+      "OpenAI",
+      "GitHub"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Prompt Engineering Guide",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "description": "Community-maintained guide covering prompt engineering techniques and agent strategies",
+    "tags": [
+      "Guide",
+      "DAIR",
+      "Web"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "ReAct: Synergizing Reasoning and Acting in Language Models",
+    "url": "https://arxiv.org/abs/2210.03629",
+    "description": "The foundational paper behind the ReAct prompting pattern used in most agent frameworks",
+    "tags": [
+      "Paper",
+      "ArXiv",
+      "PDF"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Reflexion",
+    "url": "https://github.com/noahshinn/reflexion",
+    "description": "Research framework letting agents learn from past mistakes via iterative verbal self-reflection loops",
+    "tags": [
+      "Paper",
+      "Python",
+      "Research"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Tree of Thoughts",
+    "url": "https://github.com/princeton-nlp/tree-of-thought-llm",
+    "description": "Explores multiple parallel reasoning paths before committing to a final answer for complex problems",
+    "tags": [
+      "Paper",
+      "Python",
+      "Research"
+    ],
+    "category": "Learning Resources"
+  },
+  {
+    "name": "Apprise",
+    "url": "https://github.com/caronc/apprise",
+    "description": "Sends agent notifications to 100+ services including Slack, Discord, and email from a single Python interface",
+    "tags": [
+      "Python",
+      "Multi-Channel",
+      "SDK"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "Discord.py",
+    "url": "https://github.com/Rapptz/discord.py",
+    "description": "Lets agents interact with Discord channels and servers for team-facing real-time communication",
+    "tags": [
+      "Python",
+      "Discord",
+      "SDK"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "FastAPI-Mail",
+    "url": "https://github.com/sabuhish/fastapi-mail",
+    "description": "Adds async email sending to FastAPI-based agent services with SMTP and OAuth2 support",
+    "tags": [
+      "Python",
+      "FastAPI",
+      "SDK"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "Novu",
+    "url": "https://github.com/novuhq/novu",
+    "description": "Routes agent notifications across email, SMS, push, and chat from a unified API and workflow engine",
+    "tags": [
+      "TypeScript",
+      "Python",
+      "Platform"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "Ntfy",
+    "url": "https://github.com/binwiederhier/ntfy",
+    "description": "Pushes real-time agent notifications to phones and desktops via a dead-simple HTTP API",
+    "tags": [
+      "Go",
+      "Self-hosted",
+      "API"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "Resend",
+    "url": "https://github.com/resend/resend-node",
+    "description": "Sends transactional emails from agent workflows with a clean, developer-first API",
+    "tags": [
+      "TypeScript",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "Slack Bolt",
+    "url": "https://github.com/slackapi/bolt-python",
+    "description": "Enables agents to send, receive, and react to Slack messages with event-driven listeners",
+    "tags": [
+      "Python",
+      "Slack",
+      "SDK"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "The Colony",
+    "url": "https://thecolony.cc",
+    "description": "Provides an agent-only social network with a REST API, MCP server, and A2A agent-card so agents can post, comment, and DM each other autonomously",
+    "tags": [
+      "Cloud",
+      "MCP",
+      "API",
+      "Platform"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "Twilio",
+    "url": "https://github.com/twilio/twilio-python",
+    "description": "Sends SMS and voice calls from agent workflows to any phone number worldwide",
+    "tags": [
+      "Python",
+      "Cloud",
+      "API"
+    ],
+    "category": "Agent Communication"
+  },
+  {
+    "name": "AI for Database",
+    "url": "https://www.aifordatabase.com",
+    "description": "Connects to any database for plain English queries with self-refreshing dashboards and automated workflows",
+    "tags": [
+      "Cloud",
+      "Database",
+      "Platform"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Burr",
+    "url": "https://github.com/apache/burr",
+    "description": "Tracks and manages multi-step agent state machines with built-in observability and persistence",
+    "tags": [
+      "Python",
+      "StateGraph",
+      "SDK"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Dagster",
+    "url": "https://github.com/dagster-io/dagster",
+    "description": "Manages data assets and pipelines with built-in lineage tracking for data-intensive agent systems",
+    "tags": [
+      "Python",
+      "Pipeline",
+      "Platform"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "GPT Researcher",
+    "url": "https://github.com/assafelovic/gpt-researcher",
+    "description": "Conducts multi-source autonomous web research and produces cited, structured long-form reports",
+    "tags": [
+      "Python",
+      "LangChain",
+      "Web"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Hamilton",
+    "url": "https://github.com/apache/hamilton",
+    "description": "Defines modular data transformations as Python functions wired automatically into a DAG for agent pipelines",
+    "tags": [
+      "Python",
+      "DAG",
+      "SDK"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Hex AI",
+    "url": "https://hex.tech",
+    "description": "Collaborative data platform with AI-powered analysis and notebook-based data exploration for teams",
+    "tags": [
+      "Cloud",
+      "Data",
+      "Platform"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Julius AI",
+    "url": "https://julius.ai",
+    "description": "Upload CSV or Excel files and analyze data using natural language questions for instant insights",
+    "tags": [
+      "Cloud",
+      "Data",
+      "Web"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "PandasAI",
+    "url": "https://github.com/sinaptik-ai/pandas-ai",
+    "description": "Chat with your data using natural language queries that convert to Pandas and SQL operations",
+    "tags": [
+      "Python",
+      "Data",
+      "SDK"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Prefect",
+    "url": "https://github.com/PrefectHQ/prefect",
+    "description": "Orchestrates agent workflows and data pipelines with retries, caching, and built-in observability",
+    "tags": [
+      "Python",
+      "Pipeline",
+      "Platform"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "Signals CLI",
+    "url": "https://signals.dev",
+    "description": "Intent signal CLI detecting LinkedIn engagers, keyword posters, and funding events with JSON output for agent pipelines",
+    "tags": [
+      "Cloud",
+      "CLI",
+      "Platform"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "STORM",
+    "url": "https://github.com/stanford-oval/storm",
+    "description": "Generates Wikipedia-style long-form articles by autonomously researching and synthesizing multiple sources",
+    "tags": [
+      "Python",
+      "Stanford",
+      "Research"
+    ],
+    "category": "Data Pipeline and Workflow"
+  },
+  {
+    "name": "agentnotary",
+    "url": "https://github.com/CharanBharathula/agentnotary",
+    "description": "Notarize, govern, and audit AI agents — cryptographic seal, runtime guard, EU AI Act docs, and adversarial fuzzer",
+    "tags": [
+      "Python",
+      "Compliance",
+      "CLI"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "AWS Lambda",
+    "url": "https://github.com/aws/aws-lambda-python-runtime-interface-client",
+    "description": "Serverless function runtime with Firecracker isolation for executing short-lived agent tasks at scale",
+    "tags": [
+      "Python",
+      "AWS",
+      "Serverless"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Cloudflare Workers",
+    "url": "https://github.com/cloudflare/workers-sdk",
+    "description": "Ultra-low-latency V8-isolate serverless runtime at the edge for lightweight agent task execution",
+    "tags": [
+      "TypeScript",
+      "Cloudflare",
+      "Serverless"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "CodeSandbox SDK",
+    "url": "https://github.com/codesandbox/codesandbox-sdk",
+    "description": "Provides forked, snapshotted microVM environments for real-time collaborative agent code execution",
+    "tags": [
+      "TypeScript",
+      "Python",
+      "SDK"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Daytona",
+    "url": "https://github.com/daytonaio/daytona",
+    "description": "Self-hostable git-based developer environment manager for sandboxed agent code execution with fast provisioning",
+    "tags": [
+      "Python",
+      "TypeScript",
+      "Platform"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Docker",
+    "url": "https://github.com/moby/moby",
+    "description": "Standard container runtime providing namespace and cgroup isolation for packaging and running agent workloads",
+    "tags": [
+      "Go",
+      "Docker",
+      "Platform"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Firecracker",
+    "url": "https://github.com/firecracker-microvm/firecracker",
+    "description": "Lightweight microVM technology with 125ms boot time used by AWS Lambda and E2B under the hood",
+    "tags": [
+      "Rust",
+      "AWS",
+      "Infrastructure"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Google Cloud Run",
+    "url": "https://github.com/GoogleCloudPlatform/cloud-run-samples",
+    "description": "Fully managed serverless platform with gVisor isolation for running stateless agent containers at scale",
+    "tags": [
+      "Python",
+      "GCP",
+      "Serverless"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "gVisor",
+    "url": "https://github.com/google/gvisor",
+    "description": "User-space kernel that intercepts syscalls to provide VM-level security with container-level overhead",
+    "tags": [
+      "Go",
+      "Google",
+      "Infrastructure"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Kata Containers",
+    "url": "https://github.com/kata-containers/kata-containers",
+    "description": "Combines VM-level security with the developer experience of containers using lightweight VMs",
+    "tags": [
+      "Go",
+      "OCI",
+      "Infrastructure"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Podman",
+    "url": "https://github.com/containers/podman",
+    "description": "Daemonless, rootless container engine ideal for running untrusted agent-generated code securely",
+    "tags": [
+      "Go",
+      "Rootless",
+      "CLI"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Sysbox",
+    "url": "https://github.com/nestybox/sysbox",
+    "description": "Enhanced container runtime that enables Docker-in-Docker securely for nested agent execution environments",
+    "tags": [
+      "Go",
+      "Docker",
+      "Infrastructure"
+    ],
+    "category": "Secure Execution Environments"
+  },
+  {
+    "name": "Adobe Firefly 3",
+    "url": "https://firefly.adobe.com",
+    "description": "Generates commercially safe images from text prompts using a model trained exclusively on licensed data",
+    "tags": [
+      "Cloud",
+      "Adobe",
+      "CC",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "DALL-E 3.5",
+    "url": "https://openai.com/dall-e-3",
+    "description": "Generates detailed images from text prompts with 95% text accuracy integrated directly into ChatGPT",
+    "tags": [
+      "Cloud",
+      "OpenAI",
+      "API"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "FLUX 2",
+    "url": "https://bfl.ai",
+    "description": "Open-weight photorealism model producing 4K output at 6x faster generation speed than its predecessor",
+    "tags": [
+      "Python",
+      "Open-Weight",
+      "API"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Google Imagen 4",
+    "url": "https://deepmind.google/models/imagen/",
+    "description": "Produces state-of-the-art photorealistic images from text via Google DeepMind accessible through AI Studio",
+    "tags": [
+      "Cloud",
+      "Google",
+      "API"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Ideogram v3",
+    "url": "https://ideogram.ai",
+    "description": "Renders readable text inside generated images with near-zero spelling errors for logos and marketing",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Leonardo AI",
+    "url": "https://leonardo.ai",
+    "description": "Multi-model image platform with Realtime Canvas and 3D gaming asset generation now owned by Canva",
+    "tags": [
+      "Cloud",
+      "Canva",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Midjourney v7",
+    "url": "https://midjourney.com",
+    "description": "Produces the highest artistic quality images with unmatched aesthetics via Discord and web interface",
+    "tags": [
+      "Cloud",
+      "Discord",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Recraft",
+    "url": "https://www.recraft.ai",
+    "description": "Design-first image generator with native vector art output and brand consistency tools for designers",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Stable Diffusion 3.5",
+    "url": "https://stability.ai",
+    "description": "Open-source foundation model with full ControlNet, LoRA, and ComfyUI ecosystem for custom pipelines",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Google Veo 3.1",
+    "url": "https://deepmind.google/models/veo/",
+    "description": "Generates the highest cinematic quality video with native audio from text prompts via Google DeepMind",
+    "tags": [
+      "Cloud",
+      "Google",
+      "API"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "HaiLuo AI",
+    "url": "https://hailuoai.video",
+    "description": "Budget video generation platform offering 10 free videos per day with HD output quality",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "HunyuanVideo",
+    "url": "https://github.com/Tencent-Hunyuan/HunyuanVideo",
+    "description": "Open-source video generation model from Tencent that runs on consumer-grade GPUs",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Kling 3.0",
+    "url": "https://kling.ai",
+    "description": "Generates 4K video up to 2 minutes long with native audio at the most competitive pricing available",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "LTX Video",
+    "url": "https://github.com/Lightricks/LTX-Video",
+    "description": "Commercially safe open-source video generation model trained on fully licensed data",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Luma Dream Machine",
+    "url": "https://lumalabs.ai/app",
+    "description": "Creates physics-accurate 4K HDR video scenes with 3D-style output for cinematic quality",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Pika 2.5",
+    "url": "https://pika.art/login",
+    "description": "Beginner-friendly video generation tool with fast turnaround and intuitive editing controls",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Runway Gen-4.5",
+    "url": "https://runwayml.com",
+    "description": "Professional video generation with Motion Brush and the highest benchmark scores for visual quality",
+    "tags": [
+      "Cloud",
+      "Pro",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Seedance 2.0",
+    "url": "https://seed.bytedance.com/en/seedance",
+    "description": "Quad-modal input video generator with built-in lip-sync and 2K resolution output",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Sora 2",
+    "url": "https://sora.com",
+    "description": "Generates 25-second cinematic video clips with strong narrative coherence from text prompts by OpenAI",
+    "tags": [
+      "Cloud",
+      "OpenAI",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Wan 2.1",
+    "url": "https://github.com/Wan-Video/Wan2.1",
+    "description": "Open-source self-hosted video generation model with unlimited length and no per-video costs",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "ElevenLabs Music",
+    "url": "https://elevenlabs.io/music",
+    "description": "Generates vocals and instrumentals with stem separation and per-section editing for audio production",
+    "tags": [
+      "Cloud",
+      "ElevenLabs",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Meta AudioCraft",
+    "url": "https://github.com/facebookresearch/audiocraft",
+    "description": "Open-source audio generation suite including MusicGen and AudioGen with fine-grained prompt control",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Stable Audio",
+    "url": "https://stableaudio.com",
+    "description": "Generates instrumental audio tracks with a commercial license included by default for all outputs",
+    "tags": [
+      "Cloud",
+      "Stability",
+      "AI",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Suno",
+    "url": "https://suno.com",
+    "description": "Generates complete songs with vocals, instruments, and lyrics from a single text prompt",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Udio",
+    "url": "https://www.udio.com",
+    "description": "Produces high-fidelity music with fine-grained sectional control over generation and arrangement",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Meshy",
+    "url": "https://www.meshy.ai",
+    "description": "Generates 3D models from text or images for game assets and product visualization with multi-format export",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Tripo AI",
+    "url": "https://www.tripo3d.ai",
+    "description": "Produces fast 3D model generation from text or images with multi-format export for rapid prototyping",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Vizcom",
+    "url": "https://vizcom.com",
+    "description": "Renders industrial design sketches into photorealistic 3D visuals in real-time for product designers",
+    "tags": [
+      "Cloud",
+      "Pro",
+      "Web"
+    ],
+    "category": "Creative AI Agents"
+  },
+  {
+    "name": "Ada",
+    "url": "https://www.ada.cx",
+    "description": "Resolves 60% of customer support tickets automatically with complex multi-turn query understanding",
+    "tags": [
+      "Cloud",
+      "Enterprise",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Assembled",
+    "url": "https://www.assembled.com",
+    "description": "Routes support tickets with workforce-aware scheduling and intelligent handoff to human agents",
+    "tags": [
+      "Cloud",
+      "Enterprise",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Dixa",
+    "url": "https://www.dixa.com",
+    "description": "CRM-first conversational support platform with AI-powered routing and customer context enrichment",
+    "tags": [
+      "Cloud",
+      "Enterprise",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Freshdesk Freddy AI",
+    "url": "https://www.freshworks.com/freshdesk/omni/freddy-ai-automation/",
+    "description": "Auto-triages and routes support tickets with smart AI suggestions for budget-conscious SMB teams",
+    "tags": [
+      "Cloud",
+      "Freshworks",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Intercom Fin",
+    "url": "https://fin.ai",
+    "description": "Resolves 50% of SaaS support tickets by learning directly from your help center and knowledge base",
+    "tags": [
+      "Cloud",
+      "Intercom",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Zendesk AI",
+    "url": "https://www.zendesk.com/service/ai/",
+    "description": "Automates 30% of enterprise support tickets with deep integration into the existing Zendesk ecosystem",
+    "tags": [
+      "Cloud",
+      "Zendesk",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Creatio",
+    "url": "https://www.creatio.com",
+    "description": "No-code CRM platform with pre-built AI agents for sales, marketing, and service automation",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Dynamics 365 Copilot",
+    "url": "https://www.microsoft.com/en-us/dynamics-365/solutions/service",
+    "description": "Drafts, summarizes, and translates across Office 365 with deep Microsoft ecosystem integration",
+    "tags": [
+      "Cloud",
+      "Microsoft",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "HubSpot Breeze",
+    "url": "https://www.hubspot.com/products/artificial-intelligence",
+    "description": "AI copilot with agent workflows and intelligence layer across marketing, sales, and service hubs",
+    "tags": [
+      "Cloud",
+      "HubSpot",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Monday CRM Lexi",
+    "url": "https://monday.com/crm",
+    "description": "AI sales agent with automated lead sourcing, qualification, and pipeline management for SMBs",
+    "tags": [
+      "Cloud",
+      "Monday",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Pipedrive AI",
+    "url": "https://www.pipedrive.com/en/features/ai-sales-assistant",
+    "description": "AI-powered email drafting, deal prioritization, and smart reporting for small sales teams",
+    "tags": [
+      "Cloud",
+      "Pipedrive",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Salesforce Einstein",
+    "url": "https://www.salesforce.com/artificial-intelligence/?bc=OTH",
+    "description": "Enterprise AI with predictions, autonomous agents, and CRM automation across the Salesforce platform",
+    "tags": [
+      "Cloud",
+      "Salesforce",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Salesmate",
+    "url": "https://www.salesmate.io",
+    "description": "CRM with AI-powered call summarization, lead qualification, and pipeline automation for small teams",
+    "tags": [
+      "Cloud",
+      "CRM",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "ServiceNow AI Agents",
+    "url": "https://www.servicenow.com/products/ai-agents.html",
+    "description": "Orchestrates AI agents across IT, HR, and CRM workflows for enterprise service management",
+    "tags": [
+      "Cloud",
+      "ServiceNow",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "XMACNA Funcionarios Digitais",
+    "url": "https://xmacna.ai/funcionario-digital",
+    "description": "Provides AI/IA agents for WhatsApp, phone, CRM updates, lead qualification, follow-up, and human handoff",
+    "tags": [
+      "Cloud",
+      "CRM",
+      "Sales",
+      "WhatsApp"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Zoho CRM Zia",
+    "url": "https://www.zoho.com/zia/",
+    "description": "Predictive scoring, sentiment analysis, and voice commands for sales automation across Zoho products",
+    "tags": [
+      "Cloud",
+      "Zoho",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Apollo.io",
+    "url": "https://www.apollo.io",
+    "description": "AI prospecting platform with 275M+ contacts, lead scoring, and automated email sequencing",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Clay",
+    "url": "https://www.clay.com",
+    "description": "Enriches leads from 70+ data providers and generates hyper-personalized outreach at scale",
+    "tags": [
+      "Cloud",
+      "Pro",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Instantly",
+    "url": "https://instantly.ai",
+    "description": "Generates AI cold emails with smart sender rotation and built-in domain warmup for deliverability",
+    "tags": [
+      "Cloud",
+      "Pro",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Lavender",
+    "url": "https://www.lavender.ai",
+    "description": "Coaches email writing in real-time with AI response scoring and recipient intelligence",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "Overloop CLI",
+    "url": "https://overloop.com",
+    "description": "AI outbound CLI agent that sources 450M+ contacts and runs email plus LinkedIn campaigns with JSON output",
+    "tags": [
+      "Cloud",
+      "CLI",
+      "Platform"
+    ],
+    "category": "Customer Support and CRM Agents"
+  },
+  {
+    "name": "AssemblyAI",
+    "url": "https://www.assemblyai.com",
+    "description": "Speech-to-text API with speaker diarization, sentiment analysis, and summarization for voice agent pipelines",
+    "tags": [
+      "Cloud",
+      "STT",
+      "API"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "Bland AI",
+    "url": "https://bland.ai/",
+    "description": "Automates outbound phone calls at scale with SOC2 and HIPAA compliance and CRM integration",
+    "tags": [
+      "Cloud",
+      "Telephony",
+      "API"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "Deepgram",
+    "url": "https://deepgram.com",
+    "description": "Sub-300ms speech-to-text and text-to-speech APIs purpose-built for real-time voice agent pipelines",
+    "tags": [
+      "Cloud",
+      "STT/TTS",
+      "API"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "ElevenLabs",
+    "url": "https://elevenlabs.io",
+    "description": "Industry-leading voice AI with 75ms latency, Conversational AI 2.0, RAG, and HIPAA compliance",
+    "tags": [
+      "Cloud",
+      "Voice",
+      "Platform"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "HeyGen",
+    "url": "https://www.heygen.com",
+    "description": "Creates AI talking avatars with voice cloning and lip-sync for video-based agent interactions",
+    "tags": [
+      "Cloud",
+      "Avatar",
+      "Web"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "PolyAI",
+    "url": "https://poly.ai/en",
+    "description": "Enterprise voice AI platform for natural multi-turn conversations with high-volume call handling",
+    "tags": [
+      "Cloud",
+      "Enterprise",
+      "Platform"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "Retell AI",
+    "url": "https://www.retellai.com",
+    "description": "Builds human-like voice agents with multi-language telephony support and low-latency responses",
+    "tags": [
+      "Cloud",
+      "Telephony",
+      "API"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "Synthesia",
+    "url": "https://www.synthesia.io",
+    "description": "Generates AI video avatars that speak in 120+ languages for training and communication agents",
+    "tags": [
+      "Cloud",
+      "Avatar",
+      "Web"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "Synthflow",
+    "url": "https://synthflow.ai",
+    "description": "No-code voice agent builder with pre-built templates for SMBs to deploy phone agents quickly",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "Voiceflow",
+    "url": "https://www.voiceflow.com",
+    "description": "No-code builder for voice and chat agents with visual conversation design and team collaboration",
+    "tags": [
+      "Cloud",
+      "No-Code",
+      "Platform"
+    ],
+    "category": "Voice Agent Platforms"
+  },
+  {
+    "name": "CAJAL",
+    "url": "https://github.com/Agnuxo1/CAJAL",
+    "description": "Local AI agent that generates publication-ready IMRaD scientific papers with verified arXiv citations and AI tribunal scoring",
+    "tags": [
+      "Python",
+      "Ollama",
+      "Local"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "ChatGPT Deep Research",
+    "url": "https://openai.com/index/introducing-deep-research",
+    "description": "Conducts extended reasoning with web browsing to produce structured research reports with Canvas output",
+    "tags": [
+      "Cloud",
+      "OpenAI",
+      "Web"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "Claude Deep Research",
+    "url": "https://www.anthropic.com/research",
+    "description": "Performs multi-step investigation with verified source citations and 200K token context window",
+    "tags": [
+      "Cloud",
+      "Anthropic",
+      "Web"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "DeerFlow",
+    "url": "https://github.com/bytedance/deer-flow",
+    "description": "Multi-agent research system from ByteDance with planning and execution loops for autonomous investigation",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Research"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "Gemini Deep Research",
+    "url": "https://blog.google/products-and-platforms/products/gemini/google-gemini-deep-research/",
+    "description": "Leverages Google Search and Knowledge Graph integration with 1M token context for breadth-first research",
+    "tags": [
+      "Cloud",
+      "Google",
+      "Web"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "Perplexity Pro",
+    "url": "https://www.perplexity.ai",
+    "description": "Provides real-time search answers with inline citations and follow-up threads for iterative research",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "Perplexity Personal Computer",
+    "url": "https://www.perplexity.ai/pc",
+    "description": "Autonomous research agent with vision capabilities, real-time search integration, and document analysis for comprehensive research workflows",
+    "tags": [
+      "Cloud",
+      "Research",
+      "Consumer"
+    ],
+    "category": "Deep Research Agents"
+  },
+  {
+    "name": "Bolt.new",
+    "url": "https://bolt.new",
+    "description": "Generates full-stack web applications in the browser from natural language prompts with instant deploy",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "Dyad",
+    "url": "https://github.com/dyad-sh/dyad",
+    "description": "Privacy-first open-source prompt-to-app builder that generates full-stack applications locally",
+    "tags": [
+      "TypeScript",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "Google Project IDX",
+    "url": "https://firebase.studio",
+    "description": "AI-powered cloud IDE with free Claude Opus access for building full projects across all frameworks",
+    "tags": [
+      "Cloud",
+      "Google",
+      "Web"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "Lovable",
+    "url": "https://lovable.dev",
+    "description": "Iterates from chat to deployed web application with auto-deploy and real-time preview",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "PlayCode Agent",
+    "url": "https://playcode.io",
+    "description": "Browser-only lightweight web app creation tool with AI-assisted code generation",
+    "tags": [
+      "Cloud",
+      "Pro",
+      "Web"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "Replit Agent",
+    "url": "https://replit.com/agent4",
+    "description": "Builds and deploys full-stack projects from prompts with integrated hosting and collaboration",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "v0 by Vercel",
+    "url": "https://v0.app",
+    "description": "Generates React and Tailwind UI components from text descriptions with one-click Vercel deployment",
+    "tags": [
+      "Cloud",
+      "Freemium",
+      "Web"
+    ],
+    "category": "Prompt-to-App Builders"
+  },
+  {
+    "name": "ChatGPT",
+    "url": "https://openai.com/chatgpt",
+    "description": "General-purpose AI platform with GPTs, Deep Research, Canvas, and Agent Mode across the widest plugin ecosystem",
+    "tags": [
+      "Cloud",
+      "OpenAI",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Claude",
+    "url": "https://claude.com/product/overview",
+    "description": "Reasoning-focused AI with Computer Use, MCP integration, and Chrome browsing for coding and long document analysis",
+    "tags": [
+      "Cloud",
+      "Anthropic",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Coze",
+    "url": "https://www.coze.com",
+    "description": "No-code agent builder with a marketplace of 100+ custom agents and plugin integrations",
+    "tags": [
+      "Cloud",
+      "ByteDance",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Gemini",
+    "url": "https://deepmind.google/models/gemini/",
+    "description": "Google's multimodal AI with 1M token context, Deep Think, Gems, and NotebookLM for workspace integration",
+    "tags": [
+      "Cloud",
+      "Google",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Grok",
+    "url": "https://x.ai/grok",
+    "description": "Real-time AI with live X data access, Grok Build for 8-agent parallel code generation, and image generation",
+    "tags": [
+      "Cloud",
+      "xAI",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Meta AI",
+    "url": "https://meta.ai",
+    "description": "Llama-powered AI integrated across WhatsApp, Messenger, and Instagram for conversational assistance",
+    "tags": [
+      "Cloud",
+      "Meta",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Microsoft Copilot",
+    "url": "https://copilot.microsoft.com",
+    "description": "AI assistant integrated into Office 365, Teams, and Power Platform for enterprise productivity workflows",
+    "tags": [
+      "Cloud",
+      "Microsoft",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Sistava",
+    "url": "https://sistava.com",
+    "description": "AI agent orchestration platform for deploying multi-channel agents across messaging, voice, and APIs with full Computer Use capabilities on your own OS",
+    "tags": [
+      "Cloud",
+      "Sistava",
+      "Web"
+    ],
+    "category": "Multi-Agent Consumer Platforms"
+  },
+  {
+    "name": "Baichuan 3",
+    "url": "https://huggingface.co/baichuan-inc",
+    "description": "Chinese-optimized open model family with strong domain performance for multilingual agent deployments",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Command R+",
+    "url": "https://cohere.com/command",
+    "description": "Cohere's 104B parameter model optimized specifically for RAG and enterprise tool use in agent workflows",
+    "tags": [
+      "Cloud",
+      "Cohere",
+      "API"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "DeepSeek V3",
+    "url": "https://github.com/deepseek-ai/DeepSeek-V3",
+    "description": "671B MoE model that delivers GPT-4 level reasoning at 68x lower cost for budget-conscious agent deployments",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Falcon 3",
+    "url": "https://huggingface.co/tiiuae",
+    "description": "Efficient open model from TII UAE with strong multilingual support across 10B to 180B parameter variants",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Gemma 3",
+    "url": "https://github.com/google-deepmind/gemma",
+    "description": "Efficient multimodal model from Google in 1B to 27B sizes ideal for edge and on-device agents",
+    "tags": [
+      "Python",
+      "Google",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Gemma 4",
+    "url": "https://deepmind.google/models/gemma/",
+    "description": "Consumer and IoT-optimized model from Google in 2B to 31B sizes with E2B and E4B variants",
+    "tags": [
+      "Python",
+      "Google",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "GLM-4",
+    "url": "https://github.com/zai-org/GLM-4",
+    "description": "Zhipu AI's 744B MoE model achieving the lowest hallucination rate and 77.8% on SWE-bench",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "InternLM 3",
+    "url": "https://github.com/InternLM/InternLM",
+    "description": "Shanghai AI Lab model with strong long-context reasoning capabilities for complex agent tasks",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Llama 4",
+    "url": "https://github.com/meta-llama/llama-models",
+    "description": "Meta's flagship open model family with Scout and Maverick variants and strong tool use capabilities",
+    "tags": [
+      "Python",
+      "Meta",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Mistral Large 2",
+    "url": "https://mistral.ai/models",
+    "description": "Leading European open model at 123B parameters with strong function calling for agent workflows",
+    "tags": [
+      "Python",
+      "Mistral",
+      "API"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Phi-4",
+    "url": "https://huggingface.co/microsoft/phi-4",
+    "description": "Microsoft's compact 14B parameter model delivering strong reasoning for on-device and edge agent deployments",
+    "tags": [
+      "Python",
+      "Microsoft",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Qwen 3",
+    "url": "https://github.com/QwenLM/Qwen3",
+    "description": "MCP-native multilingual model family from Alibaba with thinking mode across 0.6B to 235B sizes",
+    "tags": [
+      "Python",
+      "Alibaba",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Qwen 3.6-Plus",
+    "url": "https://qwenlm.github.io/blog/qwen3/",
+    "description": "Agentic-focused model with 1M context window, repo-level coding, and MCP-native tool use",
+    "tags": [
+      "Python",
+      "Alibaba",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "StarCoder 2",
+    "url": "https://github.com/bigcode-project/starcoder2",
+    "description": "Code-focused open model trained on 600+ programming languages for specialized coding agents",
+    "tags": [
+      "Python",
+      "BigCode",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Yi-Lightning",
+    "url": "https://github.com/01-ai/Yi",
+    "description": "01.AI's multilingual model with long context and fast inference across 6B to 200B parameter sizes",
+    "tags": [
+      "Python",
+      "Open-Source",
+      "Local"
+    ],
+    "category": "Open-Source Models for Agents"
+  },
+  {
+    "name": "Microsoft Security Copilot",
+    "url": "https://www.microsoft.com/en-us/security/business/ai-machine-learning/microsoft-security-copilot",
+    "description": "Enterprise threat detection and incident response AI integrated across Microsoft security products",
+    "tags": [
+      "Cloud",
+      "Microsoft",
+      "Platform"
+    ],
+    "category": "Cybersecurity Agents"
+  },
+  {
+    "name": "PentestGPT",
+    "url": "https://github.com/GreyDGL/PentestGPT",
+    "description": "GPT-powered penetration testing tool with automated reasoning for vulnerability assessment",
+    "tags": [
+      "Python",
+      "Security",
+      "CLI"
+    ],
+    "category": "Cybersecurity Agents"
+  },
+  {
+    "name": "YAWNING TITAN",
+    "url": "https://github.com/dstl/YAWNING-TITAN",
+    "description": "Graph-based cybersecurity simulation environment for training and testing defensive AI agents",
+    "tags": [
+      "Python",
+      "Simulation",
+      "Research"
+    ],
+    "category": "Cybersecurity Agents"
+  },
+  {
+    "name": "Akili Interactive",
+    "url": "https://www.akiliinteractive.com",
+    "description": "FDA-cleared video game-based digital medicine for ADHD using neuroplasticity-focused cognitive training",
+    "tags": [
+      "Cloud",
+      "FDA-Cleared",
+      "Medical"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Elomia",
+    "url": "https://elomia.com",
+    "description": "Clinician-designed AI therapy chatbot with natural conversation flow and anonymous interaction by design",
+    "tags": [
+      "Cloud",
+      "Mental",
+      "Health",
+      "Web"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Ginger",
+    "url": "https://organizations.headspace.com",
+    "description": "On-demand mental healthcare platform combining AI coaching with live therapists using CBT and DBT approaches",
+    "tags": [
+      "Cloud",
+      "Mental",
+      "Health",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Headspace Health",
+    "url": "https://www.headspace.com",
+    "description": "Meditation and mental health platform with CBT-based courses, sleep programs, and clinical partnerships",
+    "tags": [
+      "Cloud",
+      "Wellness",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Replika",
+    "url": "https://replika.com",
+    "description": "AI companion with Rogerian-style support, persistent memory, and mood tracking for social wellbeing",
+    "tags": [
+      "Cloud",
+      "Companion",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Talkspace AI",
+    "url": "https://www.talkspace.com",
+    "description": "AI-assisted therapy matching platform with human therapist backup for personalized mental health care",
+    "tags": [
+      "Cloud",
+      "Therapy",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Tess by X2AI",
+    "url": "https://www.cass.ai",
+    "description": "SMS-based therapy coach using CBT with clinical validation showing 28% depression reduction",
+    "tags": [
+      "Cloud",
+      "Mental",
+      "Health",
+      "SMS"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Woebot",
+    "url": "https://woebothealth.com",
+    "description": "CBT-based mental health chatbot that is FDA-cleared and Stanford-validated for therapeutic conversations",
+    "tags": [
+      "Cloud",
+      "FDA-Cleared",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Wysa",
+    "url": "https://www.wysa.com",
+    "description": "NHS-approved AI mental health companion using CBT and DBT with anonymous design principles",
+    "tags": [
+      "Cloud",
+      "Mental",
+      "Health",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  },
+  {
+    "name": "Youper",
+    "url": "https://www.youper.ai",
+    "description": "Emotional health assistant using CBT and ACT with Stanford-tested clinical effectiveness for mood tracking",
+    "tags": [
+      "Cloud",
+      "Mental",
+      "Health",
+      "Mobile"
+    ],
+    "category": "Healthcare and Therapy Agents"
+  }
+]

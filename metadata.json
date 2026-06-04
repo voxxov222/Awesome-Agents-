@@ -1,0 +1,6 @@
+{
+  "name": "Awesome AI Agents 2026",
+  "description": "An interactive directory and explorer for the Awesome AI Agents list.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
