@@ -210,7 +210,7 @@ The protocol layer that enables agents to discover tools, communicate with each 
 Sandboxes, web scrapers, browser automation, and networking layers that agents depend on.
 
 - [AgentDock](https://github.com/agentdock/agentdock) - Framework for building and deploying production-ready AI agents with composable node architecture (🏷️ `Python` `Docker` `Platform`).
-- [codex-profiles](https://github.com/Ducksss/codex-profiles) - Bash CLI for switching OpenAI Codex CLI and Desktop profiles with isolated CODEX_HOME directories (🏷️ `Bash` `CLI` `Local`).
+- [codex-profiles](https://github.com/Ducksss/codex-profiles) - Bash CLI for named CODEX_HOME profiles and, on macOS, ChatGPT Desktop windows with separate local state, without copying tokens (🏷️ `Bash` `CLI` `Local`).
 - [Crawl4AI](https://github.com/unclecode/crawl4ai) - Extracts structured data from web pages using LLM-friendly output formats optimized for agent ingestion (🏷️ `Python` `Playwright` `SDK`).
 - [Docling](https://github.com/docling-project/docling) - Parses PDFs, DOCX, and slides into structured text with deep layout understanding for document agents (🏷️ `Python` `PDF` `SDK`).
 - [E2B](https://github.com/e2b-dev/e2b) - Cloud sandboxes for AI agents to run code securely in isolated environments (🏷️ `TypeScript` `Cloud` `Sandbox`).
