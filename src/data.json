@@ -1353,7 +1353,7 @@
   {
     "name": "codex-profiles",
     "url": "https://github.com/Ducksss/codex-profiles",
-    "description": "Bash CLI for switching OpenAI Codex CLI and Desktop profiles with isolated CODEX_HOME directories",
+    "description": "Bash CLI for named CODEX_HOME profiles and, on macOS, ChatGPT Desktop windows with separate local state, without copying tokens",
     "tags": [
       "Bash",
       "CLI",
